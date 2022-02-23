@@ -9,7 +9,7 @@ local TopBar = Instance.new("Frame")
 local SideBar = Instance.new("Frame")
 local Name = Instance.new("TextLabel")
 local Home = Instance.new("TextButton")
-local Scripts = Instance.new("TextButton")
+local DHM = Instance.new("TextButton")
 local Version = Instance.new("TextLabel")
 local HomeFrame = Instance.new("Frame")
 local Main = Instance.new("TextButton")
@@ -19,12 +19,19 @@ local KeyBind = Instance.new("TextLabel")
 local InfoFrame = Instance.new("Frame")
 local SCRIPT = Instance.new("TextLabel")
 local Promo = Instance.new("TextLabel")
-local DHM = Instance.new("TextLabel")
 local ScriptsFrame = Instance.new("Frame")
+local DHM_2 = Instance.new("TextButton")
+local DHMFrame = Instance.new("Frame")
 local Chariots = Instance.new("TextButton")
 local GA = Instance.new("TextButton")
-local SoftVortex = Instance.new("TextButton")
 local NOTL = Instance.new("TextButton")
+local SoftVortex = Instance.new("TextButton")
+local PfFrame = Instance.new("Frame")
+local Evo = Instance.new("TextButton")
+local Nexus = Instance.new("TextButton")
+local DARKHUB = Instance.new("TextButton")
+local Ehub = Instance.new("TextButton")
+local PF = Instance.new("TextButton")
 
 --Properties:
 
@@ -72,16 +79,16 @@ Home.Text = "Home"
 Home.TextColor3 = Color3.fromRGB(255, 255, 255)
 Home.TextSize = 21.000
 
-Scripts.Name = "Scripts"
-Scripts.Parent = SideBar
-Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Scripts.BackgroundTransparency = 1.000
-Scripts.Position = UDim2.new(0, 0, 0.365833342, 0)
-Scripts.Size = UDim2.new(0, 100, 0, 48)
-Scripts.Font = Enum.Font.FredokaOne
-Scripts.Text = "Scripts"
-Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
-Scripts.TextSize = 21.000
+DHM.Name = "DHM"
+DHM.Parent = SideBar
+DHM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DHM.BackgroundTransparency = 1.000
+DHM.Position = UDim2.new(0, 0, 0.365833342, 0)
+DHM.Size = UDim2.new(0, 100, 0, 48)
+DHM.Font = Enum.Font.FredokaOne
+DHM.Text = "DHM"
+DHM.TextColor3 = Color3.fromRGB(255, 255, 255)
+DHM.TextSize = 21.000
 
 Version.Name = "Version"
 Version.Parent = SideBar
@@ -175,18 +182,6 @@ Promo.Text = "Made By Элегантный#0518"
 Promo.TextColor3 = Color3.fromRGB(255, 255, 255)
 Promo.TextSize = 25.000
 
-DHM.Name = "DHM"
-DHM.Parent = InfoFrame
-DHM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DHM.BackgroundTransparency = 1.000
-DHM.BorderSizePixel = 0
-DHM.Position = UDim2.new(0.249376565, 0, 0.394958019, 0)
-DHM.Size = UDim2.new(0, 200, 0, 50)
-DHM.Font = Enum.Font.GothamBlack
-DHM.Text = "Made for hood modded"
-DHM.TextColor3 = Color3.fromRGB(255, 255, 255)
-DHM.TextSize = 25.000
-
 ScriptsFrame.Name = "ScriptsFrame"
 ScriptsFrame.Parent = Frame
 ScriptsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -196,8 +191,26 @@ ScriptsFrame.Position = UDim2.new(0.201596811, 0, 0.206666663, 0)
 ScriptsFrame.Size = UDim2.new(0, 400, 0, 238)
 ScriptsFrame.Visible = false
 
+DHM_2.Name = "DHM"
+DHM_2.Parent = ScriptsFrame
+DHM_2.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+DHM_2.BorderSizePixel = 0
+DHM_2.Position = UDim2.new(0.0425000042, 0, -0.23893559, 0)
+DHM_2.Size = UDim2.new(0, 150, 0, 50)
+DHM_2.Font = Enum.Font.FredokaOne
+DHM_2.Text = "DHM"
+DHM_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+DHM_2.TextSize = 30.000
+
+DHMFrame.Name = "DHMFrame"
+DHMFrame.Parent = ScriptsFrame
+DHMFrame.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+DHMFrame.BorderSizePixel = 0
+DHMFrame.Position = UDim2.new(-0.00249999994, 0, -0.0034173727, 0)
+DHMFrame.Size = UDim2.new(0, 401, 0, 238)
+
 Chariots.Name = "Chariots"
-Chariots.Parent = ScriptsFrame
+Chariots.Parent = DHMFrame
 Chariots.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
 Chariots.Position = UDim2.new(0.572500169, 0, 0.0840336159, 0)
 Chariots.Size = UDim2.new(0, 150, 0, 50)
@@ -207,7 +220,7 @@ Chariots.TextColor3 = Color3.fromRGB(255, 255, 255)
 Chariots.TextSize = 30.000
 
 GA.Name = "GA$"
-GA.Parent = ScriptsFrame
+GA.Parent = DHMFrame
 GA.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
 GA.Position = UDim2.new(0.0474999994, 0, 0.537815154, 0)
 GA.Size = UDim2.new(0, 150, 0, 50)
@@ -216,18 +229,8 @@ GA.Text = "GA$"
 GA.TextColor3 = Color3.fromRGB(255, 255, 255)
 GA.TextSize = 30.000
 
-SoftVortex.Name = "SoftVortex"
-SoftVortex.Parent = ScriptsFrame
-SoftVortex.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
-SoftVortex.Position = UDim2.new(0.0450001955, 0, 0.0840336382, 0)
-SoftVortex.Size = UDim2.new(0, 150, 0, 50)
-SoftVortex.Font = Enum.Font.FredokaOne
-SoftVortex.Text = "SoftVortex"
-SoftVortex.TextColor3 = Color3.fromRGB(255, 255, 255)
-SoftVortex.TextSize = 30.000
-
 NOTL.Name = "NOTL"
-NOTL.Parent = ScriptsFrame
+NOTL.Parent = DHMFrame
 NOTL.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
 NOTL.Position = UDim2.new(0.572500169, 0, 0.537815154, 0)
 NOTL.Size = UDim2.new(0, 150, 0, 50)
@@ -236,9 +239,78 @@ NOTL.Text = "NOTL"
 NOTL.TextColor3 = Color3.fromRGB(255, 255, 255)
 NOTL.TextSize = 30.000
 
+SoftVortex.Name = "SoftVortex"
+SoftVortex.Parent = DHMFrame
+SoftVortex.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+SoftVortex.Position = UDim2.new(0.0450001955, 0, 0.0840336382, 0)
+SoftVortex.Size = UDim2.new(0, 150, 0, 50)
+SoftVortex.Font = Enum.Font.FredokaOne
+SoftVortex.Text = "SoftVortex"
+SoftVortex.TextColor3 = Color3.fromRGB(255, 255, 255)
+SoftVortex.TextSize = 30.000
+
+PfFrame.Name = "PfFrame"
+PfFrame.Parent = ScriptsFrame
+PfFrame.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+PfFrame.BorderSizePixel = 0
+PfFrame.Position = UDim2.new(-0.00249999994, 0, -0.0034173727, 0)
+PfFrame.Size = UDim2.new(0, 401, 0, 238)
+PfFrame.Visible = false
+
+Evo.Name = "Evo"
+Evo.Parent = PfFrame
+Evo.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Evo.Position = UDim2.new(0.0450001955, 0, 0.0840336382, 0)
+Evo.Size = UDim2.new(0, 150, 0, 50)
+Evo.Font = Enum.Font.FredokaOne
+Evo.Text = "EVO"
+Evo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Evo.TextSize = 30.000
+
+Nexus.Name = "Nexus"
+Nexus.Parent = PfFrame
+Nexus.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Nexus.Position = UDim2.new(0.572500169, 0, 0.537815154, 0)
+Nexus.Size = UDim2.new(0, 150, 0, 50)
+Nexus.Font = Enum.Font.FredokaOne
+Nexus.Text = "NEXUS"
+Nexus.TextColor3 = Color3.fromRGB(255, 255, 255)
+Nexus.TextSize = 30.000
+
+DARKHUB.Name = "DARKHUB"
+DARKHUB.Parent = PfFrame
+DARKHUB.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+DARKHUB.Position = UDim2.new(0.0474999994, 0, 0.537815154, 0)
+DARKHUB.Size = UDim2.new(0, 150, 0, 50)
+DARKHUB.Font = Enum.Font.FredokaOne
+DARKHUB.Text = "DARKHUB"
+DARKHUB.TextColor3 = Color3.fromRGB(255, 255, 255)
+DARKHUB.TextSize = 30.000
+
+Ehub.Name = "Ehub"
+Ehub.Parent = PfFrame
+Ehub.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Ehub.Position = UDim2.new(0.572500169, 0, 0.0840336159, 0)
+Ehub.Size = UDim2.new(0, 150, 0, 50)
+Ehub.Font = Enum.Font.FredokaOne
+Ehub.Text = "EHUB"
+Ehub.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ehub.TextSize = 30.000
+
+PF.Name = "PF"
+PF.Parent = ScriptsFrame
+PF.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+PF.BorderSizePixel = 0
+PF.Position = UDim2.new(0.569999993, 0, -0.23893559, 0)
+PF.Size = UDim2.new(0, 150, 0, 50)
+PF.Font = Enum.Font.FredokaOne
+PF.Text = "PF"
+PF.TextColor3 = Color3.fromRGB(255, 255, 255)
+PF.TextSize = 30.000
+
 -- Scripts:
 
-local function JTNZN_fake_script() -- Home.LocalScript 
+local function BUUYL_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -246,17 +318,17 @@ local function JTNZN_fake_script() -- Home.LocalScript
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
 	end)
 end
-coroutine.wrap(JTNZN_fake_script)()
-local function XYWA_fake_script() -- Scripts.LocalScript 
-	local script = Instance.new('LocalScript', Scripts)
+coroutine.wrap(BUUYL_fake_script)()
+local function OEFBGEV_fake_script() -- DHM.LocalScript 
+	local script = Instance.new('LocalScript', DHM)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.HomeFrame.Visible = false
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = true
 	end)
 end
-coroutine.wrap(XYWA_fake_script)()
-local function OHILQJ_fake_script() -- Main.LocalScript 
+coroutine.wrap(OEFBGEV_fake_script)()
+local function BIZZOKT_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -264,8 +336,8 @@ local function OHILQJ_fake_script() -- Main.LocalScript
 		script.Parent.Parent.InfoFrame.Visible = false
 	end)
 end
-coroutine.wrap(OHILQJ_fake_script)()
-local function ZYOP_fake_script() -- Info.LocalScript 
+coroutine.wrap(BIZZOKT_fake_script)()
+local function BTKM_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -273,40 +345,90 @@ local function ZYOP_fake_script() -- Info.LocalScript
 		script.Parent.Parent.InfoFrame.Visible = true
 	end)
 end
-coroutine.wrap(ZYOP_fake_script)()
-local function QHTA_fake_script() -- Chariots.LocalScript 
+coroutine.wrap(BTKM_fake_script)()
+local function TIXR_fake_script() -- DHM_2.LocalScript 
+	local script = Instance.new('LocalScript', DHM_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.DHMFrame.Visible = true
+		script.Parent.Parent.PfFrame.Visible = false
+	end)
+end
+coroutine.wrap(TIXR_fake_script)()
+local function CRKNCE_fake_script() -- Chariots.LocalScript 
 	local script = Instance.new('LocalScript', Chariots)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
 	end)
 end
-coroutine.wrap(QHTA_fake_script)()
-local function SGCGY_fake_script() -- GA.LocalScript 
+coroutine.wrap(CRKNCE_fake_script)()
+local function RXNF_fake_script() -- GA.LocalScript 
 	local script = Instance.new('LocalScript', GA)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/angeloX041/GASV1.5/main/GA%24V1.5"))()
 	end)
 end
-coroutine.wrap(SGCGY_fake_script)()
-local function YJETJ_fake_script() -- SoftVortex.LocalScript 
-	local script = Instance.new('LocalScript', SoftVortex)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/MACHINE/main/MACHINE"),true))()
-	end)
-end
-coroutine.wrap(YJETJ_fake_script)()
-local function TWXNEO_fake_script() -- NOTL.LocalScript 
+coroutine.wrap(RXNF_fake_script)()
+local function LPZQE_fake_script() -- NOTL.LocalScript 
 	local script = Instance.new('LocalScript', NOTL)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NOTLONTOP/dd/Hey/DAHOODMODDED", true))()
 	end)
 end
-coroutine.wrap(TWXNEO_fake_script)()
-local function QUCUVIY_fake_script() -- Frame.LocalScript 
+coroutine.wrap(LPZQE_fake_script)()
+local function KDPJP_fake_script() -- SoftVortex.LocalScript 
+	local script = Instance.new('LocalScript', SoftVortex)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/MACHINE/main/MACHINE"),true))()
+	end)
+end
+coroutine.wrap(KDPJP_fake_script)()
+local function NKYONWI_fake_script() -- Evo.LocalScript 
+	local script = Instance.new('LocalScript', Evo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+	end)
+end
+coroutine.wrap(NKYONWI_fake_script)()
+local function GWSNWUL_fake_script() -- Nexus.LocalScript 
+	local script = Instance.new('LocalScript', Nexus)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LittleDyingDuck/Nexus.cc-Crack/main/crack.lua"))();
+	end)
+end
+coroutine.wrap(GWSNWUL_fake_script)()
+local function QFPPX_fake_script() -- DARKHUB.LocalScript 
+	local script = Instance.new('LocalScript', DARKHUB)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(QFPPX_fake_script)()
+local function XVVF_fake_script() -- Ehub.LocalScript 
+	local script = Instance.new('LocalScript', Ehub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://ehub.fun/raw/script.lua"))()
+	end)
+end
+coroutine.wrap(XVVF_fake_script)()
+local function DMMF_fake_script() -- PF.LocalScript 
+	local script = Instance.new('LocalScript', PF)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.DHMFrame.Visible = false
+		script.Parent.Parent.PfFrame.Visible = true
+	end)
+end
+coroutine.wrap(DMMF_fake_script)()
+local function VSXG_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Plr = game.Players.LocalPlayer
@@ -325,4 +447,4 @@ local function QUCUVIY_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QUCUVIY_fake_script)()
+coroutine.wrap(VSXG_fake_script)()
