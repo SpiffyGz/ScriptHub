@@ -235,7 +235,7 @@ NOTL.TextSize = 30.000
 
 -- Scripts:
 
-local function UQKXU_fake_script() -- Home.LocalScript 
+local function XCRRVJ_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -243,8 +243,8 @@ local function UQKXU_fake_script() -- Home.LocalScript
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
 	end)
 end
-coroutine.wrap(UQKXU_fake_script)()
-local function YBEJT_fake_script() -- Scripts.LocalScript 
+coroutine.wrap(XCRRVJ_fake_script)()
+local function HYJMNB_fake_script() -- Scripts.LocalScript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -252,8 +252,8 @@ local function YBEJT_fake_script() -- Scripts.LocalScript
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = true
 	end)
 end
-coroutine.wrap(YBEJT_fake_script)()
-local function NKWKVJB_fake_script() -- Main.LocalScript 
+coroutine.wrap(HYJMNB_fake_script)()
+local function ICNIVFQ_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -261,8 +261,8 @@ local function NKWKVJB_fake_script() -- Main.LocalScript
 		script.Parent.Parent.InfoFrame.Visible = false
 	end)
 end
-coroutine.wrap(NKWKVJB_fake_script)()
-local function OPKOK_fake_script() -- Info.LocalScript 
+coroutine.wrap(ICNIVFQ_fake_script)()
+local function UKEW_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -270,36 +270,56 @@ local function OPKOK_fake_script() -- Info.LocalScript
 		script.Parent.Parent.InfoFrame.Visible = true
 	end)
 end
-coroutine.wrap(OPKOK_fake_script)()
-local function QYHUJ_fake_script() -- Chariots.LocalScript 
+coroutine.wrap(UKEW_fake_script)()
+local function GEPYSA_fake_script() -- Chariots.LocalScript 
 	local script = Instance.new('LocalScript', Chariots)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
 	end)
 end
-coroutine.wrap(QYHUJ_fake_script)()
-local function RETZTZQ_fake_script() -- GA.LocalScript 
+coroutine.wrap(GEPYSA_fake_script)()
+local function OYYJE_fake_script() -- GA.LocalScript 
 	local script = Instance.new('LocalScript', GA)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/angeloX041/GASV1.5/main/GA%24V1.5"))()
 	end)
 end
-coroutine.wrap(RETZTZQ_fake_script)()
-local function AFVGO_fake_script() -- SoftVortex.LocalScript 
+coroutine.wrap(OYYJE_fake_script)()
+local function ICAGX_fake_script() -- SoftVortex.LocalScript 
 	local script = Instance.new('LocalScript', SoftVortex)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/MACHINE/main/MACHINE"),true))()
 	end)
 end
-coroutine.wrap(AFVGO_fake_script)()
-local function BMLJBY_fake_script() -- NOTL.LocalScript 
+coroutine.wrap(ICAGX_fake_script)()
+local function LFET_fake_script() -- NOTL.LocalScript 
 	local script = Instance.new('LocalScript', NOTL)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NOTLONTOP/dd/Hey/DAHOODMODDED", true))()
 	end)
 end
-coroutine.wrap(BMLJBY_fake_script)()
+coroutine.wrap(LFET_fake_script)()
+local function WPEOF_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "j" then
+			script.Parent.Visible = true
+		end
+	end)
+	
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "k" then
+			script.Parent.Visible = true
+		end
+	end)
+end
+coroutine.wrap(WPEOF_fake_script)()
