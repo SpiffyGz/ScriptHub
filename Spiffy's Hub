@@ -318,7 +318,7 @@ local function WPEOF_fake_script() -- Frame.LocalScript
 	
 	Plr:GetMouse().KeyDown:Connect(function(K)
 		if K == "k" then
-			script.Parent.Visible = true
+			script.Parent.Visible = false
 		end
 	end)
 end
