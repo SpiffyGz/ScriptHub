@@ -86,7 +86,7 @@ DHM.BackgroundTransparency = 1.000
 DHM.Position = UDim2.new(0, 0, 0.365833342, 0)
 DHM.Size = UDim2.new(0, 100, 0, 48)
 DHM.Font = Enum.Font.FredokaOne
-DHM.Text = "DHM"
+DHM.Text = "Scripts"
 DHM.TextColor3 = Color3.fromRGB(255, 255, 255)
 DHM.TextSize = 21.000
 
@@ -310,7 +310,7 @@ PF.TextSize = 30.000
 
 -- Scripts:
 
-local function BUUYL_fake_script() -- Home.LocalScript 
+local function ZDMNLU_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -318,8 +318,8 @@ local function BUUYL_fake_script() -- Home.LocalScript
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
 	end)
 end
-coroutine.wrap(BUUYL_fake_script)()
-local function OEFBGEV_fake_script() -- DHM.LocalScript 
+coroutine.wrap(ZDMNLU_fake_script)()
+local function OMFRK_fake_script() -- DHM.LocalScript 
 	local script = Instance.new('LocalScript', DHM)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -327,8 +327,8 @@ local function OEFBGEV_fake_script() -- DHM.LocalScript
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = true
 	end)
 end
-coroutine.wrap(OEFBGEV_fake_script)()
-local function BIZZOKT_fake_script() -- Main.LocalScript 
+coroutine.wrap(OMFRK_fake_script)()
+local function BIMBSNS_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -336,8 +336,8 @@ local function BIZZOKT_fake_script() -- Main.LocalScript
 		script.Parent.Parent.InfoFrame.Visible = false
 	end)
 end
-coroutine.wrap(BIZZOKT_fake_script)()
-local function BTKM_fake_script() -- Info.LocalScript 
+coroutine.wrap(BIMBSNS_fake_script)()
+local function MNXZNW_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -345,8 +345,8 @@ local function BTKM_fake_script() -- Info.LocalScript
 		script.Parent.Parent.InfoFrame.Visible = true
 	end)
 end
-coroutine.wrap(BTKM_fake_script)()
-local function TIXR_fake_script() -- DHM_2.LocalScript 
+coroutine.wrap(MNXZNW_fake_script)()
+local function NTHCTD_fake_script() -- DHM_2.LocalScript 
 	local script = Instance.new('LocalScript', DHM_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -354,72 +354,72 @@ local function TIXR_fake_script() -- DHM_2.LocalScript
 		script.Parent.Parent.PfFrame.Visible = false
 	end)
 end
-coroutine.wrap(TIXR_fake_script)()
-local function CRKNCE_fake_script() -- Chariots.LocalScript 
+coroutine.wrap(NTHCTD_fake_script)()
+local function HWWDG_fake_script() -- Chariots.LocalScript 
 	local script = Instance.new('LocalScript', Chariots)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
 	end)
 end
-coroutine.wrap(CRKNCE_fake_script)()
-local function RXNF_fake_script() -- GA.LocalScript 
+coroutine.wrap(HWWDG_fake_script)()
+local function KXWMSXP_fake_script() -- GA.LocalScript 
 	local script = Instance.new('LocalScript', GA)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/angeloX041/GASV1.5/main/GA%24V1.5"))()
 	end)
 end
-coroutine.wrap(RXNF_fake_script)()
-local function LPZQE_fake_script() -- NOTL.LocalScript 
+coroutine.wrap(KXWMSXP_fake_script)()
+local function DXRDZD_fake_script() -- NOTL.LocalScript 
 	local script = Instance.new('LocalScript', NOTL)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NOTLONTOP/dd/Hey/DAHOODMODDED", true))()
 	end)
 end
-coroutine.wrap(LPZQE_fake_script)()
-local function KDPJP_fake_script() -- SoftVortex.LocalScript 
+coroutine.wrap(DXRDZD_fake_script)()
+local function CCOYXBO_fake_script() -- SoftVortex.LocalScript 
 	local script = Instance.new('LocalScript', SoftVortex)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/MACHINE/main/MACHINE"),true))()
 	end)
 end
-coroutine.wrap(KDPJP_fake_script)()
-local function NKYONWI_fake_script() -- Evo.LocalScript 
+coroutine.wrap(CCOYXBO_fake_script)()
+local function IDSSJ_fake_script() -- Evo.LocalScript 
 	local script = Instance.new('LocalScript', Evo)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
 	end)
 end
-coroutine.wrap(NKYONWI_fake_script)()
-local function GWSNWUL_fake_script() -- Nexus.LocalScript 
+coroutine.wrap(IDSSJ_fake_script)()
+local function HYLOZYJ_fake_script() -- Nexus.LocalScript 
 	local script = Instance.new('LocalScript', Nexus)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LittleDyingDuck/Nexus.cc-Crack/main/crack.lua"))();
 	end)
 end
-coroutine.wrap(GWSNWUL_fake_script)()
-local function QFPPX_fake_script() -- DARKHUB.LocalScript 
+coroutine.wrap(HYLOZYJ_fake_script)()
+local function HFYFG_fake_script() -- DARKHUB.LocalScript 
 	local script = Instance.new('LocalScript', DARKHUB)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 	end)
 end
-coroutine.wrap(QFPPX_fake_script)()
-local function XVVF_fake_script() -- Ehub.LocalScript 
+coroutine.wrap(HFYFG_fake_script)()
+local function OGWC_fake_script() -- Ehub.LocalScript 
 	local script = Instance.new('LocalScript', Ehub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://ehub.fun/raw/script.lua"))()
 	end)
 end
-coroutine.wrap(XVVF_fake_script)()
-local function DMMF_fake_script() -- PF.LocalScript 
+coroutine.wrap(OGWC_fake_script)()
+local function JRFVUX_fake_script() -- PF.LocalScript 
 	local script = Instance.new('LocalScript', PF)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -427,8 +427,8 @@ local function DMMF_fake_script() -- PF.LocalScript
 		script.Parent.Parent.PfFrame.Visible = true
 	end)
 end
-coroutine.wrap(DMMF_fake_script)()
-local function VSXG_fake_script() -- Frame.LocalScript 
+coroutine.wrap(JRFVUX_fake_script)()
+local function SBEQIJW_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Plr = game.Players.LocalPlayer
@@ -447,4 +447,4 @@ local function VSXG_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VSXG_fake_script)()
+coroutine.wrap(SBEQIJW_fake_script)()
